@@ -1,0 +1,26 @@
+.lang-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lang-icon {
+  font-size: 1.1rem;
+}
+
+.lang-select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text);
+  font-size: 0.9rem;
+  cursor: pointer;
+  min-width: 140px;
+}
+
+.lang-selector.compact .lang-select {
+  min-width: 70px;
+  padding: 0.4rem 0.5rem;
+  font-size: 0.8rem;
+}

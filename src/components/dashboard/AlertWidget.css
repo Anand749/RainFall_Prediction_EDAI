@@ -1,0 +1,67 @@
+.alert-widget {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.alert-widget-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.65rem 0.85rem;
+  background: linear-gradient(135deg, #dc2626, #991b1b);
+  color: white;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.alert-widget-banner span {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.alert-widget-banner p {
+  margin: 0;
+}
+
+.alert-widget-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  max-height: 140px;
+  overflow-y: auto;
+}
+
+.alert-widget-item {
+  padding: 0.5rem 0.65rem;
+  background: rgba(220, 38, 38, 0.12);
+  border: 1px solid rgba(220, 38, 38, 0.35);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--danger);
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.alert-widget-item strong {
+  display: block;
+  color: var(--danger);
+  font-size: 0.82rem;
+  margin-bottom: 0.15rem;
+}
+
+.alert-widget-item span {
+  color: var(--text-secondary);
+}
+
+.alert-widget-item.severity-critical {
+  background: rgba(220, 38, 38, 0.18);
+}
+
+.alert-widget-item.severity-high {
+  border-left-color: var(--warning);
+  background: rgba(245, 158, 11, 0.1);
+}

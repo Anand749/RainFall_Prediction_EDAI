@@ -1,0 +1,222 @@
+{
+  "app": {
+    "title": "Smart Farmer Rainfall Prediction",
+    "subtitle": "Intelligent Rainfall Prediction for Indian Farmers",
+    "tagline": "Empowering farmers with accurate rainfall predictions"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "map": "Map",
+    "alerts": "Alerts",
+    "crops": "Crop Advice",
+    "history": "History",
+    "login": "Login",
+    "logout": "Logout",
+    "language": "Language",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "login": {
+    "title": "Login to Dashboard",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Login",
+    "error": "Invalid username or password",
+    "placeholder_user": "Enter username",
+    "placeholder_pass": "Enter password",
+    "welcome": "Welcome to Smart Farmer"
+  },
+  "landing": {
+    "hero_title": "Smart Rainfall Prediction for Indian Farmers",
+    "hero_subtitle": "Get accurate rainfall forecasts, monsoon alerts, and crop recommendations — all in your language",
+    "hero_cta": "Get Started",
+    "hero_cta2": "View Dashboard",
+    "about_title": "About the Project",
+    "about_desc": "Smart Farmer Rainfall Prediction System uses advanced technology to provide accurate rainfall predictions, helping farmers make better agricultural decisions. Our platform covers monsoon intensity, flood risk, crop advisory, and emergency alerts.",
+    "features_title": "Key Features",
+    "features": {
+      "prediction": "Rainfall Prediction",
+      "prediction_desc": "Accurate rainfall forecasts with probability and confidence levels",
+      "monsoon": "Monsoon Tracking",
+      "monsoon_desc": "Real-time monsoon intensity monitoring from weak to extreme",
+      "risk": "Risk Assessment",
+      "risk_desc": "Agricultural risk levels from low to red alert with color indicators",
+      "multilingual": "Multilingual Support",
+      "multilingual_desc": "Available in English, Hindi, Marathi, Bengali, Assamese & Bhojpuri",
+      "voice": "Voice Assistant",
+      "voice_desc": "Listen to predictions and interact using voice commands",
+      "map": "Interactive Maps",
+      "map_desc": "View rainfall zones, flood-prone areas, and risk overlays on map",
+      "alerts": "Emergency Alerts",
+      "alerts_desc": "Real-time flood warnings and disaster management contacts",
+      "crops": "Crop Advisory",
+      "crops_desc": "Smart crop recommendations based on rainfall and risk levels"
+    },
+    "how_title": "How It Works",
+    "how_steps": {
+      "step1": "Allow Location Access",
+      "step1_desc": "The system detects your exact location automatically",
+      "step2": "Get Predictions",
+      "step2_desc": "Our system analyzes weather data for your area",
+      "step3": "View Dashboard",
+      "step3_desc": "See rainfall, risk levels, and crop advice on your dashboard",
+      "step4": "Listen & Act",
+      "step4_desc": "Use voice assistant to hear predictions in your language"
+    },
+    "lang_title": "Available in 6 Languages",
+    "lang_desc": "We support multiple Indian languages to ensure every farmer can use this system",
+    "voice_title": "Voice Assistant",
+    "voice_desc": "Interact with the system using your voice. Ask questions, get predictions, and navigate hands-free",
+    "emergency_title": "Emergency Alert System",
+    "emergency_desc": "Instant flood warnings and disaster management information when you need it most",
+    "crop_title": "Smart Crop Recommendations",
+    "crop_desc": "Get personalized crop advice based on predicted rainfall and weather conditions",
+    "footer_text": "Smart Farmer Rainfall Prediction System",
+    "footer_copyright": "© 2026 All Rights Reserved",
+    "footer_desc": "Empowering Indian farmers with technology"
+  },
+  "dashboard": {
+    "title": "Farmer Dashboard",
+    "welcome": "Welcome, Farmer!",
+    "location": "Your Location",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "fetching_location": "Fetching your location...",
+    "location_denied": "Location access denied. Please enable location services.",
+    "last_updated": "Last Updated",
+    "speak_all": "Listen to Predictions",
+    "stop_speaking": "Stop",
+    "replay": "Replay",
+    "ml_model": "ML Rainfall Prediction",
+    "ml_classification": "ML Model Classification Results"
+  },
+  "prediction": {
+    "title": "Rainfall Prediction",
+    "predicted_rainfall": "Predicted Rainfall",
+    "probability": "Probability",
+    "confidence": "Confidence Level",
+    "mm": "mm",
+    "high_confidence": "High Confidence",
+    "medium_confidence": "Medium Confidence",
+    "low_confidence": "Low Confidence"
+  },
+  "monsoon": {
+    "title": "Monsoon Intensity",
+    "weak": "Weak Monsoon",
+    "normal": "Normal Monsoon",
+    "strong": "Strong Monsoon",
+    "extreme": "Extreme Monsoon",
+    "current": "Current Level",
+    "status": "Monsoon Status"
+  },
+  "risk": {
+    "title": "Agricultural Risk Level",
+    "low": "Low Risk",
+    "medium": "Medium Risk",
+    "high": "High Risk",
+    "red_alert": "Red Alert",
+    "current_level": "Current Risk",
+    "advisory": "Advisory"
+  },
+  "history": {
+    "title": "Historical Rainfall Data",
+    "last_year": "Last Year Rainfall",
+    "two_years": "2 Years Ago",
+    "three_year_avg": "3-Year Average",
+    "five_year_avg": "5-Year Average",
+    "trend": "Rainfall Trend",
+    "yearly_data": "Yearly Rainfall Data",
+    "monthly_data": "Monthly Distribution"
+  },
+  "weather": {
+    "title": "Weather Insights",
+    "humidity": "Humidity",
+    "temperature": "Temperature",
+    "wind_speed": "Wind Speed",
+    "cloud_cover": "Cloud Coverage",
+    "pressure": "Atmospheric Pressure"
+  },
+  "map": {
+    "title": "Rainfall Map",
+    "your_location": "Your Location",
+    "risk_zones": "Risk Zones",
+    "high_rainfall": "High Rainfall Zone",
+    "flood_prone": "Flood-Prone Area",
+    "safe_zone": "Safe Zone",
+    "moderate_zone": "Moderate Zone"
+  },
+  "alerts": {
+    "title": "Emergency Alerts",
+    "banner": "⚠️ FLOOD WARNING: Heavy rainfall expected in your region!",
+    "helpline": "Emergency Helpline Numbers",
+    "disaster_mgmt": "District Disaster Management",
+    "evacuation": "Evacuation Warning",
+    "safety_title": "Safety Instructions for Farmers",
+    "safety_tips": {
+      "tip1": "Move livestock to higher ground immediately",
+      "tip2": "Secure all farming equipment and tools",
+      "tip3": "Store harvested crops in waterproof locations",
+      "tip4": "Avoid crossing flooded roads or bridges",
+      "tip5": "Keep emergency supplies ready (food, water, medicines)",
+      "tip6": "Stay tuned to local weather updates",
+      "tip7": "Contact nearest disaster management office if needed",
+      "tip8": "Do not enter flooded fields"
+    },
+    "helplines": {
+      "ndrf": "NDRF Helpline: 011-24363260",
+      "flood": "Flood Control: 1078",
+      "ambulance": "Ambulance: 108",
+      "police": "Police: 100",
+      "fire": "Fire: 101",
+      "disaster": "Disaster Management: 1070"
+    }
+  },
+  "crops": {
+    "title": "Crop Recommendations",
+    "suitable": "Suitable Crops",
+    "irrigation": "Irrigation Advice",
+    "fertilizer": "Fertilizer Suggestions",
+    "harvesting": "Harvesting Precautions",
+    "protection": "Crop Protection",
+    "crops_list": {
+      "rice": "Rice (Paddy)",
+      "wheat": "Wheat",
+      "cotton": "Cotton",
+      "sugarcane": "Sugarcane",
+      "soybean": "Soybean",
+      "groundnut": "Groundnut",
+      "maize": "Maize",
+      "pulses": "Pulses (Dal)"
+    }
+  },
+  "voice": {
+    "title": "Voice Assistant",
+    "listening": "Listening...",
+    "speak": "Tap to speak",
+    "ask_question": "Ask me anything about rainfall or farming...",
+    "thinking": "Thinking...",
+    "sample_queries": "Try asking:",
+    "mic_on": "Microphone On",
+    "mic_off": "Microphone Off",
+    "type_message": "Type your message..."
+  },
+  "speech": {
+    "prediction_announcement": "In your area, predicted rainfall is {{rainfall}} millimeters. Rainfall probability is {{probability}} percent. Agricultural risk level is {{risk}}. Monsoon intensity is {{monsoon}}.",
+    "welcome_message": "Welcome to Smart Farmer Rainfall Prediction System. Your dashboard is ready."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "back": "Back",
+    "next": "Next",
+    "search": "Search"
+  }
+}
